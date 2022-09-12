@@ -1,15 +1,16 @@
 #include<stdio.h>
 /**
-  main - entry point
-  Return: always return 0
-  function main - list alphabets ato z
+* main - entry point
+ * Return: always return 0
+  *function main - list alphabets ato z
  */
 int main(void)
 {
 	char a;
+
 	for (a = 'a' ; a <= 'z' ; a++)
 	{
-	putchar(a);
+		putchar(a);
 	}
 	putchar('\n');
 	return (0);
