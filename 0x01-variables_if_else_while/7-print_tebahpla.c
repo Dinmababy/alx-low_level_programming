@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-/*
-* main - Prints the alphabet at reverse
-* Return: Always (Success)
+/**
+* main - entry point
+*
+* description: smile in the mirror
+* Return: Always 0 (Success)
 */
 
 int main(void)
