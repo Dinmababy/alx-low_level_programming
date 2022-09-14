@@ -4,6 +4,7 @@
 *main - Prints the alphabetic
 *Return: Always (Success)
 */
+
 int main(void)
 {
 char c;
