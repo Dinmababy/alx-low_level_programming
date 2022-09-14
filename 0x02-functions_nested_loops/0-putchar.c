@@ -3,10 +3,11 @@
 /**
 *main-main block
 *Description:print -putchar in a new line
-*return:this program returns zero
+*Return:this program returns zero
 */
 
 int main(void)
+
 {
 _putchar('_');
 _putchar('p');
