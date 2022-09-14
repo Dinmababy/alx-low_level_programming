@@ -3,7 +3,7 @@
 /**
 *main-main block
 *Description:print -putchar in a new line
-*return: always 0 (success)
+*return:this program returns zero
 */
 
 int main(void)
