@@ -1,20 +1,14 @@
-#include "main.h"
+#include <stdio.h>
 
 /**
-*main-main block
-*Description:print -putchar in a new line
-*Return:this program returns zero
+*main - Prints the alphabetic
+*Return: Always (Success)
 */
-
-void print_alphabet_x10(void)
+int main(void)
 {
-char c, i;
-for (i = 0; i <= 9; i++)
-{
+char c;
 for (c = 'a'; c <= 'z'; c++)
-{
-_putchar(c);
-}
-_putchar('\n');
-}
+putchar(c);
+putchar('\n');
+return (0);
 }
