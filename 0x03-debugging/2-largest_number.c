@@ -16,4 +16,11 @@ largest = a;
 }
 else if (b >= a && b >= c)
 {
-large
+largest = b;
+}
+else
+{
+largest = c;
+}
+return (largest);
+}
