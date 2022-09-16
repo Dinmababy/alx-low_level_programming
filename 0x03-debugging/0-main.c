@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-main - tests function that prints if intefer is postive or negative
+*main - tests function that prints if intefer is postive or negative
 * Return: 0
 */
 
@@ -12,5 +12,5 @@ int i;
 i = 0;
 positive_or_negative(i);
 
-return(0);
+return (0);
 }
