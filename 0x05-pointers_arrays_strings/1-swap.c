@@ -2,14 +2,14 @@
 
 /**
 *swap_int - swap the value of two integers
-*@a:first integer
-*@b:second integer
+*@a: first integer
+*@b: second integer
 */
 
 void swap_int(int *a, int *b)
 {
-int Night;
-Night = *a;
+int cass;
+cass = *a;
 *a = *b;
-*b = Night;
+*b = cass;
 }
