@@ -19,7 +19,7 @@ while (*(chi + count) != '\0')
 {
 for (i = 0; i < 5; i++)
 {
-if (*(Night + count) == lower_case[i] || *(chi + count) == upper_case[i])
+if (*(chi + count) == lower_case[i] || *(chi + count) == upper_case[i])
 {
 *(chi + count) = numbers[i];
 break;
@@ -28,6 +28,6 @@ break;
 count++;
 }
 
-return (chi)
+return (chi);
 
 }
