@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-*_memcpy - like memset but a function that copies memory area*@dest: destination for our memory
+*_memcpy - like memset but a function that copies memory area
+*@dest: destination for our memory
 *@src: source to copy from
 *@n: number of characters to copy
 *Return: pointer back to dest
