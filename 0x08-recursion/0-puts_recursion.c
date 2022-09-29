@@ -1,19 +1,18 @@
 #include "main.h"
 
-/**
-*_puts_recursion - print a spring
-*@s: Pointer
-*Return: Always 0.
+/*
+*_puts_recursion - prints a string followed by a new line
+*@s: string given by main
+*Return: none or 0
 */
 
-void _puts_recursion(char *s),
-
+void _puts_recursion(char *s)
 {
-if (s[0] == '\0')
+if (*s == 0)/*using pointer to get s value*/
 {
-_putchar('\n');
+_putchar(10);
 return;
 }
-_putchar(s[0]);
+_putchar(*s);
 _puts_recursion(s + 1);
 }
